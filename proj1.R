@@ -136,7 +136,7 @@ confint(weather.log_model)
 exps <- exp(weather.log_model$coefficients)
 confint(exp(exps))
 
-# increases on average by 1.03% / degree
+# increases on average by around 3% / degree
 weather.log_summary <- summary(weather.log_model)
 weather.b0 = weather.log_summary$coefficients[1]
 weather.b1 = weather.log_summary$coefficients[2]
