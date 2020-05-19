@@ -1,0 +1,14 @@
+load("fhm_data.RData")
+library(ggplot2)
+library(dplyr)
+
+tot_new_cases <- fhm.data %>% group_by(obs_date)
+
+tot_new_cases %>% summarise(
+  tot = sum(new_cases)
+)
+
+stockholm.data 
+
+ggplot(fhm.data, aes(y = new_cases, x = obs_date, color = region)) +
+  geom_point()

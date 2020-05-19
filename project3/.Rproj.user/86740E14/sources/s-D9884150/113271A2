@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589530543786.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1989785215",
+    "id" : "113271A2",
+    "lastKnownWriteTime" : 1589530523,
+    "last_content_update" : 1589531107499,
+    "path" : "~/Documents/courses/fmsn30/project3/main.R",
+    "project_path" : "main.R",
+    "properties" : {
+        "cursorPosition" : "2,14",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
